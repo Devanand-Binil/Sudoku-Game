@@ -1,18 +1,20 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
+import React from 'react';
+import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
+      {/* Main Content */}
+      <div className="flex-grow flex flex-col justify-center items-center gap-10">
+        <Outlet />
+      </div>
 
-    <div className='h-screen overflow-hidden flex flex-col justify-center gap-10 items-center'>
-      <Outlet></Outlet>
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white text-center py-0">
+        Created by Devanand Binil
+      </footer>
     </div>
-    <footer className="bg-gray-900 text-white text-center py-4">
-    Made by Devanand
-  </footer>
-    </>
-  )
+  );
 }
 
-export default App
+export default App;
