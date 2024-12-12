@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.toggle-wrapper {
+    @apply relative inline-block w-12 h-6;
+}
+
+.toggle-input {
+    @apply opacity-0 w-0 h-0;
+}
+
+.toggle-slider {
+    @apply absolute cursor-pointer top-0 left-0 right-0 bottom-0 bg-gray-300 rounded-full transition-transform duration-300 ease-in-out;
+    /* Adjust the size and shape of the slider */
+}
+
+.toggle-slider::before {
+    @apply content-[''] absolute w-6 h-6 bg-white rounded-full transition-transform duration-300 ease-in-out;
+    /* Adjust the size and shape of the slider knob */
+    content: '';
+}
+
+.toggle-input:checked+.toggle-slider {
+    @apply bg-blue-500;
+}
+
+.toggle-input:checked+.toggle-slider::before {
+    @apply transform translate-x-6;
+    /* Move the knob to the right when checked */
+}
