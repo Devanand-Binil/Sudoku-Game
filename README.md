@@ -69,14 +69,17 @@ The app features a clean, minimalistic interface that ensures an enjoyable user 
 ---
 
 ## Screenshots
-Add screenshots or gifs of the app to showcase its design and functionality. To add images, save them in the `assets` folder and use the following syntax:
 
 
-![Home Screen](./src/assets/home_screen.png)
-![Game Screen](./src/assets/game_screen.png)
-![Game Win](./src/assets/game_win.png)
-![Leader Board](./src/assets/leaaderboard.png)
-<!--![Phone](./src/assets/phone.png)-->
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+  <img src="./src/assets/home_screen.png" width="300" height="400" style="margin: 10px; border-radius: 8px;">
+  <img src="./src/assets/game_screen.png" width="300" height="400" style="margin: 10px; border-radius: 8px;">
+  <img src="./src/assets/game_win.png" width="300" height="400" style="margin: 10px; border-radius: 8px;">
+  <img src="./src/assets/leaaderboard.png" width="300" height="400" style="margin: 10px; border-radius: 8px;">
+</div>
+
+
+
 
 
 
