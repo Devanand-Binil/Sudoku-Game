@@ -43,12 +43,12 @@ The app features a clean, minimalistic interface that ensures an enjoyable user 
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Devanand-Binil/Sudoku-Game
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd sudoku-app
+   cd sudoku-game
    ```
 
 3. Install dependencies:
