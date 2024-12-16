@@ -68,6 +68,10 @@ The app features a clean, minimalistic interface that ensures an enjoyable user 
 
 ---
 
+## Deployment
+
+You can access the deployed application [Sudoku Game](https://sudoku-devan.vercel.app/).
+
 ## Screenshots
 
 
